@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    /* border: 3px solid red;  */
+    background-image: url(https://images.pexels.com/photos/4725704/pexels-photo-4725704.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: 100%;
+    background-position: 50%;
+    padding: 30px 50px 40px;
+    height: 600px ;
+}
+#header-conteudo p {
+    /* border: 3px solid red;  */
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+    color: Tan;
+    margin-top: 20%;
+}
+.foto {
+    border-radius: 50% ;
+}
+#depoimentos {
+    /* border: 3px solid blue; */
+    background-color: AntiqueWhite	;
+    padding: 35px;
+}
+.depoimentos-clientes {
+    /* border: 3px solid red; */
+    width: 30%;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    vertical-align: middle;
+    color: DimGray	;
+    font-weight: 600;
+}
