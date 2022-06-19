@@ -4,19 +4,19 @@
 }
 
 #header {
-    /* border: 3px solid red;  */
+    padding: 30px 50px 40px;
+    height: 200px ;
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+    background-color: AntiqueWhite;
+    color: Tan;
+}
+#image-main {
+    /* border: 3px solid red; */
     background-image: url(https://images.pexels.com/photos/4725704/pexels-photo-4725704.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-size: 100%;
     background-position: 50%;
-    padding: 30px 50px 40px;
-    height: 600px ;
-}
-#header-conteudo p {
-    /* border: 3px solid red;  */
-    font-size: 40px;
-    font-family: 'Pacifico', cursive;
-    color: Tan;
-    margin-top: 20%;
+    height: 550px;
 }
 .foto {
     border-radius: 50% ;
@@ -35,4 +35,64 @@
     vertical-align: middle;
     color: DimGray	;
     font-weight: 600;
+}
+#historia {
+    /* border: 3px solid red; */
+    background-color: LightCyan;
+    margin: 20px;
+    /* margin-top: 5%; */
+    padding: 40px;
+    width: 300px;
+    display: inline-block;
+    text-align: center;
+    color: DimGray	;
+    font-weight: 600;
+}
+#title {
+    text-align: center;
+    color: SteelBlue
+}
+.cardapio {
+    /* border: 3px solid red; */
+    float: right; 
+    margin: 20px;
+    padding: 40px;
+    width: 300px;
+    display: inline-block; 
+    width: 1100px;
+    background-color: LightCyan;	
+}
+.item {
+    /* border: 3px solid red; */
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    color: SteelBlue ;
+   
+}
+.item:hover {
+    border: 3px solid SteelBlue ;
+    background-color: AliceBlue;
+}
+.ambiente {
+    clear: both;
+    /* border: 3px solid red; */
+    width: 45%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 10px;
+    margin-left: 3%;
+    background-color: MistyRose;
+}
+.ambiente:hover {
+    border: 10px solid LightPink;
+}
+#contato {
+    border: 3px solid red;
+    float: right;
+    width: 700px;
+}
+footer {
+    border: 3px solid red;
 }
